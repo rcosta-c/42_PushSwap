@@ -31,13 +31,9 @@ ft_find_error.c    ft_sort.c    push_swap.h    ft_sort_stack.c
 Running the Program
 After compiling, you can run the program to sort a list of integers:
 
-bash
-Copiar código
 ./push_swap <list of integers>
 Example:
 
-bash
-Copiar código
 ./push_swap 5 2 9 1 3
 The program will output a series of instructions that describe how to sort the list using predefined operations.
 
@@ -53,9 +49,10 @@ rr - Perform ra and rb simultaneously.
 rra - Reverse rotate all elements of stack A downwards.
 rrb - Reverse rotate all elements of stack B downwards.
 rrr - Perform rra and rrb simultaneously.
+
 Sorting Logic
 Small Sets: For small sets of integers (e.g., 3 or 5 numbers), use a brute-force approach to find the optimal sequence of moves.
-Large Sets: For larger sets, use more sophisticated algorithms like the Quicksort or Radix Sort adapted to a stack-based structure to optimize the number of moves.
+Large Sets: For larger sets, use more sophisticated algorithms like the Quicksort and Turk Algorithm adapted to a stack-based structure to optimize the number of moves.
 
 
 
